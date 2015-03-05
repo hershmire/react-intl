@@ -1808,13 +1808,6 @@
     var $$es51$$dateNow = Date.now || function () {
         return new Date().getTime();
     };
-    /*
-    Copyright (c) 2014, Yahoo! Inc. All rights reserved.
-    Copyrights licensed under the New BSD License.
-    See the accompanying LICENSE file for terms.
-    */
-
-    /* jslint esnext: true */
 
     var $$diff$$round = Math.round;
 
@@ -2585,18 +2578,6 @@
     });
 
     var $$components$message$$default = $$components$message$$FormattedMessage;
-    /* jshint esnext:true */
-
-    /*
-    HTML escaping implementation is the same as React's (on purpose.) Therefore, it
-    has the following Copyright and Licensing:
-
-    Copyright 2013-2014, Facebook, Inc.
-    All rights reserved.
-
-    This source code is licensed under the BSD-style license found in the LICENSE
-    file in the root directory of React's source tree.
-    */
     var $$$escape$$ESCAPED_CHARS = {
         '&' : '&amp;',
         '>' : '&gt;',
